@@ -1,0 +1,26 @@
+.clearfix {
+    clear: both;
+}
+
+
+.products-container {
+    width: 1000px;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.product-item {
+    width: 230px;
+    height: 300px;
+    border: 1px solid green;
+    background-color: purple;
+    float: left;
+    margin-right: 24px;
+
+}
+
+.product-last-item {
+    margin-right: 0px;
+    float: right;
+}
+

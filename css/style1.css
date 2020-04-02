@@ -1,0 +1,321 @@
+body{
+    background-image: url('../images/background3.jpeg');
+}
+
+#header{
+    background-color: rgba(0, 0, 255, 0);
+    width: 1200px;
+    height: 30px;
+    margin-left: 150px;
+    margin-top: 0px;   
+
+    
+}
+
+.cantainer{
+    background-image: url('../images/background1.jpg'); 
+    width: 1200px;
+    height: 400px;
+    margin-top: 0%;
+    margin-left: 150px;
+}
+
+.logo{
+    margin-top: -10px;
+    margin-left: 150px;
+    color: green;
+}
+
+.text-one{
+    color: white;
+    text-align: center;
+}
+
+
+#h1 {
+    margin-top: 0;
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+.text-two {
+    margin-top: 0;
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+
+.home{
+    color: white;
+}
+
+.about{
+    color: white;
+
+}
+
+.contact{
+    color: white;
+
+}
+
+
+
+#main-navigation {
+ color: white;
+ padding-left: 120px;   
+}
+
+#main-navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#main-navigation li {
+    display: inline;
+}
+
+#main-navigation li a {
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+    color: #ffffff;
+}
+
+
+.blue-box {
+    background-color: blue;
+    width: 300px;
+    height: 125px;
+    color: black;
+    position: absolute;
+    top: 525px;
+    left: 158px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 3.2;
+}
+
+.green-box {
+    background-color: green;
+    width: 300px;
+    height: 125px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 525px;
+    left: 600px;
+    font-size: 30px;
+    line-height: 3.2;
+}
+
+.black-box {
+    background-color: black;
+    width: 300px;
+    height: 125px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 525px;
+    left: 1055px;
+    font-size: 30px;
+    line-height: 3.2;
+}
+
+
+.footer {
+    background-color: rgba(128, 128, 128, 0.493);
+    width: 1200px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 12px;
+    left: 158px;
+    font-size: 30px;
+    line-height: 1.6;
+}
+
+.playstation{
+    background-color: rgba(0, 0, 255, 0);
+    width: 1200px;
+    height: 50px;
+    text-align: left;
+    color: #fff;
+    margin: auto;
+    left: 158px;
+    font-size: 30px;
+    line-height: 1.5;
+    color: green;
+    margin-bottom: 30px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+.products-container {
+    width: 1400px;
+    margin: 0 auto;
+    margin-left: 100px;
+    margin-top:75px;
+}
+
+.product-item {
+    width: 200px;
+    height: 300px;
+    border: 1px solid green;
+    background-color: gray;
+    float: left;
+    margin-right: 24px;
+
+}
+
+.product-last-item {
+    margin-right: 0px;
+    float: right;
+}
+
+.products-container2 {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20PX;
+    
+}
+
+.product-price {
+    background-color: gray;
+    width: 45px;
+    padding: 5px;
+    margin-top: -25px;
+    position: absolute;
+    margin-left: 145px;
+}
+
+
+
+button{
+    width: 200px;
+    height: 40px;
+    background-color: orange;
+    text-align: center;
+}
+
+
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+h3{
+    color: black;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+  #checkout-table {
+    border-collapse: collapse;
+    background-color: white;
+    opacity: o.8;
+}
+
+/*  1. Style for Thead checkout. */
+#checkout-table thead {
+    background-color: plum;
+    margin-left: 25px;
+}
+
+#checkout-table th {
+    padding: 30px;
+    width: 250px;
+    
+}
+
+
+/*  2.Style for Tbody */
+
+#checkout-table tbody img{
+    width: 150px;
+}
+
+#checkout-table tbody td {
+    padding: 20px;
+}
+
+/* 3. Style for Tfoot */
+#checkout-table tfoot {
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+
+}
+
+#chechout-table tfoot td{
+    padding: 15px;
+}
+
+#bannerThanks{
+	background-image: url(../img/background2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 15px;
+	margin-left: 150px;
+	height: 480px;
+	width: 80%;
+	opacity: 0.8;
+	color: white;
+}
+
+#thanks {
+	text-align: center;
+	font-size: 60px;
+}
+
+.wij{
+	text-align: center;
+	font-size: 40px;
+}

@@ -1,0 +1,44 @@
+#checkout-table {
+    border-collapse: collapse;
+}
+
+/*  1. Style for Thead checkout. */
+#checkout-table thead {
+    background-color: plum;
+    margin-left: 25px;
+}
+
+#checkout-table th {
+    padding: 30px;
+    width: 250px;
+    
+}
+
+
+/*  2.Style for Tbody */
+
+#checkout-table tbody img{
+    width: 150px;
+}
+
+#checkout-table tbody td {
+    padding: 20px;
+}
+
+/* 3. Style for Tfoot */
+#checkout-table tfoot {
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+
+}
+
+#chechout-table tfoot td{
+    padding: 15px;
+}
+
+tbody tr :nth-child(odd)   {
+    background-color: #ccc;
+}
